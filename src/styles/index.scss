@@ -20,7 +20,7 @@ body {
 .calendar {
   display: flex;
   flex-wrap: wrap;
-  width: calc(7 * #{$day-size} + 6 * 1px + 2 * #{$padding});
+  width: calc(7 * #{$day-size} + 7 * 1px);
   padding: $padding;
   margin-top: 1px;
 
